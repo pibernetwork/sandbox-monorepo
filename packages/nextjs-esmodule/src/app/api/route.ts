@@ -3,8 +3,5 @@ import helloWorldCommonJS from "vanilla-lib-commonjs";
 import helloWorldESModule from "vanilla-lib-esmodule";
 
 export function GET() {
-  return NextResponse.json([
-    `Backend ${helloWorldCommonJS()}`,
-    `Backend ${helloWorldESModule()}`,
-  ]);
+  return NextResponse.json([helloWorldCommonJS(), helloWorldESModule()]);
 }
