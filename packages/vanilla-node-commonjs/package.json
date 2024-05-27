@@ -1,0 +1,17 @@
+{
+  "author": "",
+  "dependencies": {
+    "vanilla-lib-commonjs": "workspace:*",
+    "vanilla-lib-esmodule": "workspace:*"
+  },
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "vanilla-node-commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "version": "1.0.0"
+}

@@ -18,6 +18,28 @@ importers:
         specifier: ^9.0.11
         version: 9.0.11
 
+  packages/vanilla-lib-commonjs: {}
+
+  packages/vanilla-lib-esmodule: {}
+
+  packages/vanilla-node-commonjs:
+    dependencies:
+      vanilla-lib-commonjs:
+        specifier: workspace:*
+        version: link:../vanilla-lib-commonjs
+      vanilla-lib-esmodule:
+        specifier: workspace:*
+        version: link:../vanilla-lib-esmodule
+
+  packages/vanilla-node-esmodule:
+    dependencies:
+      vanilla-lib-commonjs:
+        specifier: workspace:*
+        version: link:../vanilla-lib-commonjs
+      vanilla-lib-esmodule:
+        specifier: workspace:*
+        version: link:../vanilla-lib-esmodule
+
 packages:
 
   '@babel/code-frame@7.24.6':
