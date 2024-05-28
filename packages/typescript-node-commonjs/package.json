@@ -1,0 +1,23 @@
+{
+  "author": "",
+  "dependencies": {
+    "typescript-lib-commonjs": "workspace:*",
+    "typescript-lib-esmodule": "workspace:*",
+    "vanilla-lib-commonjs": "workspace:*",
+    "vanilla-lib-esmodule": "workspace:*"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsx": "^4.11.0",
+    "typescript": "^5"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "typescript-node-commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

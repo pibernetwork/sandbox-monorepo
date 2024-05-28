@@ -1,0 +1,16 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.ts",
+  "name": "typescript-lib-esmodule",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
