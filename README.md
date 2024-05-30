@@ -1,29 +1,22 @@
 # Sandbox Monorepo
 
-A simple project to validate monorepo capabitilies with using multiple packages dependencies.
-
-## Intention
-
-A monorepo with a small set of packages to run deployment and CI tools and verify compatibility between modules.
-
-## Expectation
-
-Be able to understand how monorepo works in deployment environments like vercel and aws in the future.
+A simple proof of concept for Next.js monorepo capabilities using different modules.
 
 ## Features
 
-- Native ESModule
-- Native CommonJS
-- Typescript package with ESModule and CommonJS transpile
-- NextJS CommonJS
-- NextJS ESModule
-- Server CommonJS
-- Server ESModule
-
-## Fundamentals
-
-It will try to understand and make imports from application wide work on NextJS deployments.
+- Vanilla Lib ESModule
+- Vanilla Lib CommonJS
+- Vanilla NextJS CommonJS
+- Vanilla NextJS ESModule
+- Vanilla Node CommonJS
+- Vanilla Node ESModule
+- Typescript Lib ESModule
+- Typescript Lib CommonJS
+- Typescript NextJS CommonJS
+- Typescript NextJS ESModule
+- Typescript Node CommonJS
+- Typescript Node ESModule
 
 ## Limits
 
-It will only handle imports and exports for deployments.
+It will only handle how imports and exports works.

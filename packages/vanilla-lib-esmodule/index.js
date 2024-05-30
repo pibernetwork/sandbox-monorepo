@@ -1,3 +1,3 @@
-import { helloWorld } from "./lib/hello-world.js";
+import { helloWorld } from "./lib/hello-world";
 
 export default helloWorld;
